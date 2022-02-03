@@ -1,0 +1,15 @@
+p_id,first_name,height_feet,height_inches,last_name,position,weight_pounds,id,abbreviation,city,conference,division,full_name,name
+14,Ike,,,Anigbogu,C,,12,IND,Indiana,East,Central,Indiana Pacers,Pacers
+25,Ron,,,Baker,G,,20,NYK,New York,East,Atlantic,New York Knicks,Knicks
+47,Jabari,,,Bird,G,,2,BOS,Boston,East,Atlantic,Boston Celtics,Celtics
+67,MarShon,,,Brooks,G,,15,MEM,Memphis,West,Southwest,Memphis Grizzlies,Grizzlies
+71,Lorenzo,,,Brown,G,,28,TOR,Toronto,East,Atlantic,Toronto Raptors,Raptors
+90,Omri,,,Casspi,F,,15,MEM,Memphis,West,Southwest,Memphis Grizzlies,Grizzlies
+1,Alex,6,6,Abrines,G,200,21,OKC,Oklahoma City,West,Northwest,Oklahoma City Thunder,Thunder
+119,Tyler,,,Davis,C,,21,OKC,Oklahoma City,West,Northwest,Oklahoma City Thunder,Thunder
+149,Keenan,,,Evans,G,,9,DET,Detroit,East,Central,Detroit Pistons,Pistons
+179,Marcin,,,Gortat,C,,13,LAC,LA,West,Pacific,LA Clippers,Clippers
+1593,Andrew,,,Bogut,F,,10,GSW,Golden State,West,Pacific,Golden State Warriors,Warriors
+241,Amir,6,9,Johnson,C-F,240,23,PHI,Philadelphia,East,Atlantic,Philadelphia 76ers,76ers
+392,Malachi,,,Richardson,G,,29,UTA,Utah,West,Northwest,Utah Jazz,Jazz
+281,Zach,,,Lofton,G,,9,DET,Detroit,East,Central,Detroit Pistons,Pistons

@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    run-as: root
+    runtime-versions:
+      python: 3.9
+    commands:
+      - apt update
+      - apt install -y mariadb-server libmysqlclient-dev
+      - pip3 install -U -r crud_application/src/csv_db_package/requirements.txt
+  pre_build:
+    run-as: root
+    commands:
+      - echo "innodb_strict_mode = 0">/etc/mysql/mariadb.conf.d/50-server.cnf
+      - service mysql restart
+  build:
+    run-as: root
+    commands:
+      - mysql -e "create user 'ankita'@'localhost' identified by 'toor'; grant all on *.* to 'ankita'@'localhost' identified by 'toor'; flush priviledges;
+      - python3 crud_application/src/csv_db_package/file_server.py
+      - python3 crud_application/src/tests/test_db_function.py
